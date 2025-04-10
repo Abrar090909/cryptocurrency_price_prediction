@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+numpy
+torch
+yfinance
+matplotlib
+scikit-learn
+gym
