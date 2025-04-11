@@ -5,7 +5,7 @@ import torch
 import torch.optim as optim
 import numpy as np
 import pandas as pd
-from model import CryptoTradingEnv, ActorCriticLSTM, get_crypto_data, train, calculate_sharpe
+from api_model import CryptoTradingEnv, ActorCriticLSTM, get_crypto_data, train, calculate_sharpe
 
 app = FastAPI()
 
