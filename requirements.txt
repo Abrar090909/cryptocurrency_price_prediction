@@ -7,4 +7,3 @@ yfinance
 matplotlib
 scikit-learn
 gym
-ipywidgets
