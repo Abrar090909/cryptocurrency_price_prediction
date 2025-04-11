@@ -1,14 +1,19 @@
-
 from fastapi import FastAPI
-from api_model import main as run_model
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-@app.get("/")
-def home():
-    return {"message": "API is live!"}
+# ⬇️ Add CORS here, right after app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # use ["https://your-bolt-app.com"] in prod
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-@app.get("/predict")
-def predict():
-    result = run_model()
-    return {"prediction": result}
+@app.get("/")
+def read_root():
+    return {"message": "Hello from Render!"}
+
+# Other routes follow here
