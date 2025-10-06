@@ -125,6 +125,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Abrar Ahmed - [Your Email] - [Your LinkedIn Profile URL]
+Abrar Ahmed - myselfabrar.23@gmail.com
 
 Project Link: [https://github.com/your_username/your_repository_name](https://github.com/your_username/your_repository_name)
